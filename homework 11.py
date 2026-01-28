@@ -29,4 +29,5 @@ for line in lines:
     if age < youngest_age:
         youngest_age = age
         youngest_name = name
+
 print("yvelaze axalgazrda oskaris mflobeli", "- saxeli gvari ->", youngest_name, "- asaki -> ", youngest_age)
