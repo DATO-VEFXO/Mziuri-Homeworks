@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+
+h1, h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+button {
+    border-radius: 10px;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}

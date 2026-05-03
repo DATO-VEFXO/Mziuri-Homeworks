@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="mb-3">ესპანეთი - მადრიდი</h2>
+<img src="{{ url_for('static', filename='images/spain.jpg') }}" width="700" height="300" class="img-fluid rounded mb-3">
+<p><b>დედაქალაქი:</b> მადრიდი</p>
+<p>
+ესპანეთი არის ცოცხალი, ენერგიული და კულტურულად მდიდარი ქვეყანა. მისი დედაქალაქი მადრიდი არის თანამედროვე და აქტიური ქალაქი. ქვეყანა ცნობილია ფესტივალებით, ფლამენკოს ცეკვით და ფეხბურთით. ესპანეთის სანაპიროები და თბილი კლიმატი მას ტურისტებისთვის ძალიან მიმზიდველს ხდის.
+</p>
+
+<ul>
+    <li>⚽ Football (Barcelona/Real Madrid)</li>
+    <li>🎉 Festivals</li>
+    <li>🏖 Beaches</li>
+</ul>
+<a href="/" class="btn btn-secondary">Back</a>
+
+{% endblock %}

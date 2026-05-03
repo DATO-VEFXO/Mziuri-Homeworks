@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="mb-3">კანადა - ოტავა</h2>
+<img src="{{ url_for('static', filename='images/canada.jpg') }}" width="700" height="300" class="img-fluid rounded mb-3">
+<p><b>დედაქალაქი:</b> ოტავა</p>
+<p>
+კანადა არის დიდი და ბუნებით მდიდარი ქვეყანა. მისი დედაქალაქი ოტავა არის მშვიდი და ორგანიზებული ქალაქი. ქვეყანა ცნობილია თავისი ტყეებით, ტბებითა და მთებით. კანადა ასევე გამოირჩევა მაღალი ცხოვრების დონით და მრავალკულტურიანი საზოგადოებით.
+</p>
+<ul>
+    <li>🏔 Rocky Mountains</li>
+    <li>🌲 Nature</li>
+    <li>❄ Cold climate</li>
+</ul>
+<a href="/" class="btn btn-secondary">Back</a>
+
+{% endblock %}

@@ -1,0 +1,153 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="text-center mb-5">აღმოაჩინე სამყარო 🌏 </h1>
+
+<div class="row g-4">
+
+<!--saqartvelo-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/georgia.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Georgia</h5>
+                <p>Beautiful mountains, culture and wine.</p>
+                <a href="/georgia" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+ <!--safrangeti-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/france.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">France</h5>
+                <p>Paris, Eiffel Tower and romance.</p>
+                <a href="/france" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--italia-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/italy.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Italy</h5>
+                <p>History, pizza and amazing cities.</p>
+                <a href="/italy" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--germania-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/german.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Germany</h5>
+                <p>Modern cities and strong history.</p>
+                <a href="/german" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--saudi arabeti-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/arabic.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Saudi Arabia</h5>
+                <p>Desert landscapes and culture.</p>
+                <a href="/arabic" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--amerika-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/usa.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">USA</h5>
+                <p>Big cities, freedom and diversity.</p>
+                <a href="/usa" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--britaneti-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/uk.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">United Kingdom</h5>
+                <p>London, history and royal culture.</p>
+                <a href="/uk" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--saberzneti-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/greece.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Greece</h5>
+                <p>Beautiful islands and ancient history.</p>
+                <a href="/greece" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--espaneti-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/spain.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Spain</h5>
+                <p>Beaches, football and culture.</p>
+                <a href="/spain" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+
+<!--iaponia-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/japan.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Japan</h5>
+                <p>Technology, sushi and tradition.</p>
+                <a href="/japan" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+<!--turqeti-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/turkey.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Turkey</h5>
+                <p>Istanbul, history and amazing food.</p>
+                <a href="/turkey" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+<!--kanada-->
+    <div class="col-md-4">
+        <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/canada.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Canada</h5>
+                <p>Nature, mountains and clean cities.</p>
+                <a href="/canada" class="btn btn-outline-primary w-100">Explore</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

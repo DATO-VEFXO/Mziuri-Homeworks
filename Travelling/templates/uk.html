@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="mb-3">ბრიტანეთი - ლონდონი</h2>
+
+<img src="{{ url_for('static', filename='images/uk.jpg') }}" width="700" height="300" class="img-fluid rounded mb-3">
+<p><b>დედაქალაქი:</b> ლონდონი</p>
+<p>
+დიდი ბრიტანეთი არის ისტორიული და სამეფო ტრადიციებით მდიდარი ქვეყანა. მისი დედაქალაქი ლონდონი არის ერთ-ერთი ყველაზე მნიშვნელოვანი მსოფლიო ქალაქი. ქვეყანა ცნობილია თავისი სამეფო ოჯახით, ისტორიული შენობებით და კულტურული გავლენით. ბრიტანეთი ასევე განთქმულია განათლების მაღალი დონითა და მუზეუმებით
+</p>
+<ul>
+    <li>👑 Royal Family</li>
+    <li>🎡 London Eye</li>
+    <li>📚 Rich history</li>
+</ul>
+<a href="/" class="btn btn-secondary">Back</a>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 class="mb-3">საბერძნეთი - ათენი</h2>
+<img src="{{ url_for('static', filename='images/greece.jpg') }}" width="700" height="300" class="img-fluid rounded mb-3">
+<p><b>დედაქალაქი:</b> ათენი</p>
+<p>
+საბერძნეთი არის უძველესი ცივილიზაციის სამშობლო და დემოკრატიის ერთ-ერთი პირველი ცენტრი. მისი დედაქალაქი ათენი ცნობილია ანტიკური ტაძრებითა და ისტორიული ნანგრევებით. ქვეყანა ასევე პოპულარულია თავისი კუნძულებით, ზღვით და ტურიზმით. საბერძნეთი აერთიანებს ისტორიას, კულტურას და ულამაზეს ბუნებას.
+</p>
+<ul>
+    <li>🏛 Ancient temples</li>
+    <li>🏝 Islands</li>
+    <li>📜 History of democracy</li>
+</ul>
+<a href="/" class="btn btn-secondary">Back</a>
+
+{% endblock %}
